@@ -1,0 +1,67 @@
+.app {
+  text-align: center;
+  font-family: sans-serif;
+  /* display: flex; */
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0; 
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: palevioletred
+}
+
+
+.result * {
+  padding: 5px 5px 5px;
+  
+
+}
+
+.result .win {
+  background-color: blueviolet;
+  animation: color-change 1s infinite;
+  font-weight: bolder;
+}
+
+.result .waiting {
+  background-color: rgb(22, 130, 197);
+  font-weight: bolder;
+}
+
+.result .invalid {
+  background-color: grey;
+  color:thistle;
+}
+
+.result .match {
+  background-color: darkseagreen;
+}
+
+.guess-word {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.guess-form {
+  margin-top: 100px;
+  padding: 5px 5px 5px;
+  background-color: palevioletred;
+}
+
+.guess-form button:hover {
+  cursor: pointer;
+}
+
+@keyframes color-change {
+  0% {
+    color: white;
+  }
+  50% {
+    color: salmon;
+  }
+  100% {
+    color: white;
+  }
+}

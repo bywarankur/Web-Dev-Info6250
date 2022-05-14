@@ -1,0 +1,68 @@
+body {
+  background: #ecf2f9;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+}
+
+#chat-app {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.display-panel {
+  display: flex;
+  flex-direction: row;
+}
+
+.users {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  width: 25%;
+  background: grey;
+}
+
+.username {
+  font-family: sans-serif;
+  color: white;
+}
+
+.messages {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 75%;
+  background: #fff;
+}
+
+.message {
+  display: flex;
+  flex-direction: row;
+  border: 1px;
+  background: lightgrey;
+}
+
+.message:hover {
+  background-color: #2965e6;
+}
+
+.meta-info {
+  min-width: 100px;
+  background-color: lightgrey;
+  padding: 5px;
+}
+
+.message-text {
+  padding-left: 10px;
+}
+
+.operate-panel {
+  background: lightblue;
+}
+.outgoing {
+  padding: 1% 30% 0 30%;
+}

@@ -1,0 +1,133 @@
+#store-inventory-app {
+	width: 500px;
+	margin: 100px auto;
+	background : palevioletred;
+}
+
+h1{
+    background: beige;
+    height: 40px;
+	padding: 10px 20px;
+	font-variant: small-caps;
+    font-weight: normal;
+    text-align: center;
+}
+
+.header {
+    background-color: beige;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom, #0f0c29, pink, #24243e);
+
+}
+
+
+.header {
+    background-color: beige;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 3px 20px 1px grey;
+}
+
+.details-panel {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;   
+    color: white;
+    background-color: black;
+}
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+	background: palevioletred;
+	height: 40px;
+	line-height: 40px;
+    column-count: 2;
+    column-width: 20%;
+}
+
+
+
+li:hover{
+    background: bisque;
+}
+
+.outgoing {
+    text-align: center;
+}
+
+.to-add {
+    background: #f7f7f7;
+    margin: 10px 10px 10px 15px;
+    width: 78%;
+	padding: 10px 20px;
+    font-weight: normal;
+    border-radius: 5px;
+}
+
+.to-remove{
+    background: #e74c3c;
+    color: yellow;
+	margin-right: 20px;
+	text-align: center;
+    border: none;
+    margin-left: 20px;
+    display: inline-flexbox;
+}
+
+.list-container {
+    padding-top: 30px;
+    font-weight: bold;  
+}
+
+
+.add-button{
+    font-size: small;
+    width: auto;
+    padding: 10px 10px 10px 10px;  
+    font-weight: bold;  
+    background-color: lightslategray;
+    border: 2px solid black; 
+    border-radius: 5px;
+}
+
+.item-name{
+    text-align: center;
+    width: 60%; 
+    font-weight: bold;  
+    font-variant: small-caps;
+    font-size: larger;
+}
+
+.to-minus{
+   margin-left: 60%;
+   margin-top: 10px;
+   width: 22px;
+   font-weight: 600;
+}
+
+.to-plus{
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+ 
+.quantity{
+    margin-left: 5px;
+    margin-right: 5px;
+}

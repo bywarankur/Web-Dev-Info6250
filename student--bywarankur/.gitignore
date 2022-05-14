@@ -1,0 +1,5 @@
+package-lock.json
+**/node_modules
+work/basic-express/node_modules/**
+work/basic-express/package-lock.json
+.DS_Store
